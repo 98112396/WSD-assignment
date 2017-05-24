@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>FlightTicket</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   <body bgcolor="#9ae59a">
+        <h1 align="center">Welcome to FlightTicket</h1>
+        <p align="center"> <u><a href="register.jsp">Register</a></u> | <u><a href="login.jsp">Login</a></u></p>      
+        
+        
+        <form action="result.jsp" method="post">
+            <table>
+                <tr><td>City</td><td>
+                         <select name="first">
+                            <option value ="Sydney">Sydney
+                            <option value ="Melbourne"> Melbourne
+                            <option value ="Brisbane"> Brisbane
+                            <option value ="Perth"> Perth
+                            <option value ="Adelaide"> Adelaide   
+                        </select>
+                    </td>
+                    <td>
+                      <select name="second">
+                            <option value ="Sydney">Sydney
+                            <option value ="Melbourne"> Melbourne
+                            <option value ="Brisbane"> Brisbane
+                            <option value ="Perth"> Perth
+                            <option value ="Adelaide"> Adelaide   
+                        </select>    
+                    </td></tr>
+                <tr><td>Type</td><td>Business<input type = "radio" name = "type" value = "Business">
+                         Economy<input type = "radio" name = "type" value = "Economy"></td></tr>
+                <tr><td>Departure Date</td><td><input type="date" name="dDate"></td></tr>
+                <tr><td>Return Date</td><td><input type="date" name="rDate"></td></tr>
+               <tr><td></td><td><input type = "submit" value = "Search"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <id>123</id>       
+        <name>Lionel Messi</name>
+        <email>bal@celona.com</email>
+        <password>iamnumberone</password>
+        <dob>1987-06-24</dob>
+        <type>user</type>
+    </user>
+    <user>     
+        <id>124</id>  
+        <name>Cristiano Ronaldo</name>
+        <email>real@madrid.com</email>
+        <password>cr7isbest</password>
+        <dob>1985-02-05</dob>
+        <type>admin</type>
+    </user>
+       <user>     
+        <id>127</id>  
+        <name>admin</name>
+        <email>admin@admin.com</email>
+        <password>admin</password>
+        <dob>1985-02-05</dob>
+        <type>admin</type>
+    </user>
+</users>

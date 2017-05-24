@@ -1,0 +1,50 @@
+           header{
+                 width: auto;
+                 height: auto;
+                 margin: auto;
+                 background-color: gold;
+                 text-align: center;
+                 color: black;
+                 clear: left;
+                 padding: 1em;
+            }
+            footer{
+                  position: absolute;
+                     right: 0;
+                     bottom: 0;
+                     left: 0;
+                     padding: 1rem;
+                 background-color: black;
+                 text-align: center;
+                 color: gold;
+                 font-size: 20px;
+                 bottom: 70px;
+                 width: auto;
+            }
+            .left{
+                float:left;
+                width:300px;
+            }
+            .right{
+                 float: right;
+                 width: 300px;
+            }
+            .center{
+                text-align: center;
+            }
+            table.contents{
+                margin-top: 100px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+             table.tables{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            div.result{
+               width:800px;
+               margin-top: 50px;
+               margin-left: auto;
+               margin-right: auto;
+               text-align: center;
+            }

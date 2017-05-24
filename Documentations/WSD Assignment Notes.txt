@@ -1,0 +1,78 @@
+Look up and book available domestic flights in Australia for an airline company.
+
+3 Types of users:
+	Viewer: Non-registered users, search and view with main page.
+	Customer: Registered users, search and view with main page, book and cancel.
+	Admin: Admin user, view, edit, cancel.
+
+Everyone has access to: Main, Results, Register, Login.
+Customer has access to: Logout, Booking.
+Admin has access to: Logout, Admin.
+
+Main Page:
+	Search Form:
+		Drop down list between 2 cities in Australia.
+		Radio Button for type of flight; either Business or Economy.
+		Departure date and Return date...calender function?
+	3 States:
+		1> Guest.
+		2> Customer.
+		3> Admin.
+
+Register Page:
+	Register Form:
+		Name - Full name, inclusive of space (e.g. "Bob Fucking Marley").
+		Email - Which will be used as a username.
+		Password.
+		Date of Birth.
+	2 Scenarios:
+		1> Customer has performed a search - Redirected to Results Page.
+		2> Customer hasn't performed a search - Redirected to Main Page in Second State.
+
+Login Page:
+	Login Form:
+		Email - Which will be userd as a username.
+		Password.
+	2 Scenarios:
+		1> Login Successful - Redirected to Main page in Second State.
+		2> Login Unsuccessful - Refresh page with error message displayed.
+
+Results Page:
+	List of Available Flights:
+		Departure date/time and Return date/time.
+		Price.
+		Available seats.
+		Flight origin and destination.
+		flight type.
+		>>FLIGHT NUMBER.
+
+	2 Scenarios:
+		1> First state search - Non clickable flights.
+		2> Second state search - Clicking a flight - Redirected to "Booking" Page
+
+Booking Page:
+	Make a Booking:
+		Form with 1 Field: >>FLIGHT NUMBER (attained from Results Page or empty)
+			2 Scenarios of pressing submit: 1> Booked || 2> Flight Full || 3> More than 1 Booking
+	View Booking Details:
+		List of Booking:
+			Username
+			Flight details using the >>FLIGHT NUMBER
+			>>BOOKING NUMBER
+	Edit Booking && Cancel Booking:
+		Cancel a Booking button.
+
+Admin Page:
+	View All Bookings && View Booking Details:
+		List of All Bookings:
+			Booking details using the >>BOOKING NUMBER
+	Edit a Booking && Cancelling a Booking:
+		Clicking a Booking - Prompt to Cancel a Booking.
+
+OBJECT CREATION FIELDS:
+	User fields:
+		Type, Name, Email, Password, DOB, userId
+	Booking fields:
+		bookingId
+	Flights Fields:	
+		depDate, retDate, Price, Seats, Origin, Destination, Type, flightId

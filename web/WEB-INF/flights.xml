@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flights>
+    <flight>
+        <flightID>12345</flightID>
+        <name>LionFlight</name>
+        <origin>Sydney</origin>
+        <destination>Adelaide</destination>
+        <deDate>2017-05-29</deDate>
+        <reDate>2017-06-05</reDate>
+        <price>90</price>
+        <seats>20</seats>
+        <type>Economy</type>
+    </flight>
+    <flight>
+        <flightID>12346</flightID>
+        <name>IETSTAR</name>
+        <origin>Sydney</origin>
+        <destination>Perth</destination>
+        <deDate>2017-05-27</deDate>
+        <reDate>2017-06-06</reDate>
+        <price>150</price>
+        <seats>25</seats>
+        <type>Economy</type>
+    </flight>
+    <flight>
+        <flightID>12348</flightID>
+        <name>TestFlight</name>
+        <origin>Sydney</origin>
+        <destination>Adelaide</destination>
+        <deDate>2017-05-29</deDate>
+        <reDate>2017-06-05</reDate>
+        <price>120</price>
+        <seats>10</seats>
+        <type>Business</type>
+    </flight>
+    <flight> 
+        <flightID>12347</flightID>
+        <name>IETSTAR</name>
+        <origin>Sydney</origin>
+        <destination>Melbourne</destination>
+        <deDate>2017-05-28</deDate>
+        <reDate>2017-06-02</reDate>
+        <price>125</price>
+        <seats>25</seats>
+        <type>Economy</type>
+    </flight>
+</flights>
+
